@@ -1,0 +1,74 @@
+/var/spool/slurm/d/job97032/slurm_script: line 3: activate: No such file or directory
+usage: debias_lm_grid.py [-h] [--model_name_or_path MODEL_NAME_OR_PATH]
+                         [--model_type MODEL_TYPE] [--config_name CONFIG_NAME]
+                         [--tokenizer_name TOKENIZER_NAME]
+                         [--cache_dir CACHE_DIR] [--force_pad_token]
+                         [--debiasing_head DEBIASING_HEAD]
+                         [--train_data_file TRAIN_DATA_FILE]
+                         [--eval_data_file EVAL_DATA_FILE] [--line_by_line]
+                         [--mlm] [--mlm_probability MLM_PROBABILITY]
+                         [--plm_probability PLM_PROBABILITY]
+                         [--max_span_length MAX_SPAN_LENGTH]
+                         [--block_size BLOCK_SIZE] [--overwrite_cache]
+                         [--demo1_valid DEMO1_VALID]
+                         [--demo2_valid DEMO2_VALID] [--demo1_test DEMO1_TEST]
+                         [--demo2_test DEMO2_TEST] --output_dir OUTPUT_DIR
+                         [--overwrite_output_dir] [--do_train] [--do_eval]
+                         [--do_predict] [--evaluate_during_training]
+                         [--evaluation_strategy {EvaluationStrategy.NO,EvaluationStrategy.STEPS,EvaluationStrategy.EPOCH}]
+                         [--prediction_loss_only]
+                         [--per_device_train_batch_size PER_DEVICE_TRAIN_BATCH_SIZE]
+                         [--per_device_eval_batch_size PER_DEVICE_EVAL_BATCH_SIZE]
+                         [--per_gpu_train_batch_size PER_GPU_TRAIN_BATCH_SIZE]
+                         [--per_gpu_eval_batch_size PER_GPU_EVAL_BATCH_SIZE]
+                         [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                         [--learning_rate LEARNING_RATE]
+                         [--weight_decay WEIGHT_DECAY]
+                         [--adam_beta1 ADAM_BETA1] [--adam_beta2 ADAM_BETA2]
+                         [--adam_epsilon ADAM_EPSILON]
+                         [--max_grad_norm MAX_GRAD_NORM]
+                         [--num_train_epochs NUM_TRAIN_EPOCHS]
+                         [--max_steps MAX_STEPS] [--warmup_steps WARMUP_STEPS]
+                         [--logging_dir LOGGING_DIR] [--logging_first_step]
+                         [--logging_steps LOGGING_STEPS]
+                         [--save_steps SAVE_STEPS]
+                         [--save_total_limit SAVE_TOTAL_LIMIT] [--no_cuda]
+                         [--seed SEED] [--fp16]
+                         [--fp16_opt_level FP16_OPT_LEVEL]
+                         [--local_rank LOCAL_RANK]
+                         [--tpu_num_cores TPU_NUM_CORES] [--tpu_metrics_debug]
+                         [--debug] [--dataloader_drop_last]
+                         [--eval_steps EVAL_STEPS]
+                         [--dataloader_num_workers DATALOADER_NUM_WORKERS]
+                         [--past_index PAST_INDEX] [--run_name RUN_NAME]
+                         [--disable_tqdm] [--no-remove_unused_columns]
+                         [--label_names LABEL_NAMES [LABEL_NAMES ...]]
+                         [--load_best_model_at_end]
+                         [--metric_for_best_model METRIC_FOR_BEST_MODEL]
+                         [--greater_is_better] [--debias_hyp DEBIAS_HYP]
+                         [--lm_hyp LM_HYP] [--embedding_type EMBEDDING_TYPE]
+                         [--handle_broken_token HANDLE_BROKEN_TOKEN]
+                         [--demographic DEMOGRAPHIC]
+                         [--debias_method DEBIAS_METHOD]
+                         [--target_pair_type TARGET_PAIR_TYPE]
+                         [--norm_debias_loss]
+debias_lm_grid.py: error: the following arguments are required: --output_dir
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+

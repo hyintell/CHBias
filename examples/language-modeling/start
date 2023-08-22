@@ -1,0 +1,1 @@
+sbatch -p all --gres=gpu:1 --output ./results/%j.out run.sh

@@ -1,0 +1,21 @@
+/var/spool/slurm/d/job97030/slurm_script: line 3: activate: No such file or directory
+python: can't open file '../examples/language-modeling/debias_lm_grid.py': [Errno 2] No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
