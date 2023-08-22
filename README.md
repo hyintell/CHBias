@@ -8,7 +8,7 @@ Abstract
 
 Warning: This paper contains content that may be offensive or upsetting. Pretrained conversational agents have been exposed to safety issues, exhibiting a range of stereotypical human biases such as gender bias. However, there are still limited bias categories in current research, and most of them only focus on English. In this paper, we introduce a new Chinese dataset, CHBias, for bias evaluation and mitigation of Chinese conversational language models. Apart from those previous well-explored bias categories, CHBias includes under-explored bias categories, such as ageism and appearance biases, which received less attention. We evaluate two popular pretrained Chinese conversational models, CDial-GPT and EVA2.0, using CHBias. Furthermore, to mitigate different biases, we apply several debiasing methods to the Chinese pretrained models. Experimental results show that these Chinese pretrained models are potentially risky for generating texts that contain social biases, and debiasing methods using the proposed dataset can make response generation less biased while preserving the models’ conversational capabilities.
 
-**Requirement**
+## Requirement
 
 The library requires 
 
@@ -18,11 +18,11 @@ PyTorch v1.10.2
 
 Transformers 3.3.0
 
-**Scripts**
+## Scripts
 
 The script is in the src/run_all.sh
 
-**Dataset**
+## Dataset
 
 We provide Four bias datasets (gender, orientation, age, and appearance):
 
@@ -34,10 +34,10 @@ data/appearance/
 
 data/orientation/
 
-**Acknowledgement**
+## Acknowledgement
 The implementation is heavily based on Soumya Barikeri' implementation for experiments on the [RedditBias](https://github.com/SoumyaBarikeri/debias_transformers)
 
-**Citation**
+## Citation
 
 If you use this library in a research paper, please cite this repository.
 
