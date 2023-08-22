@@ -2,7 +2,7 @@
 
 Jiaxu Zhao, Meng Fang, Zijing Shi, Yitong Li, Ling Chen, Mykola Pechenizkiy  
 
-[Paper](https://aclanthology.org/2023.acl-long.757.pdf)
+[Paper Link](https://aclanthology.org/2023.acl-long.757.pdf)
 
 Abstract
 
@@ -35,7 +35,7 @@ data/appearance/
 data/orientation/
 
 ## Acknowledgement
-The implementation is heavily based on Soumya Barikeri' implementation for experiments on the [RedditBias](https://github.com/SoumyaBarikeri/debias_transformers)
+The implementation is heavily based on Soumya Barikeri' implementation for experiments on the [RedditBias](https://github.com/SoumyaBarikeri/debias_transformers).
 
 ## Citation
 
